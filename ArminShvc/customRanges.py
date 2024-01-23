@@ -18,7 +18,7 @@ def float_range(start, stop, step):
 
 
 # create string range for abcd...wxyz by 3 parameters: start, stop, step
-def string_range(start, stop, step):
+def string_range(start: str, stop: str, step: int):
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     stop_index = alphabet.find(stop.lower())
     next_char = 'a'
