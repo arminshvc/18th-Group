@@ -1,7 +1,7 @@
 import turtle
 
 # Set up the Turtle
-turtle.speed(12)
+turtle.speed(5)
 turtle.hideturtle()
 turtle.penup()
 turtle.goto(-200, 200)  # Starting position for drawing the grid
